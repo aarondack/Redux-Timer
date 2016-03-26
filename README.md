@@ -2,6 +2,8 @@
 
 Just a bare-bones simple contrived timer example that I built to show people an introduction to redux and react. 
 
+![](/Timer.gif)
+
 ##### To run  
 Clone or fork the repo.
 
