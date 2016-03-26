@@ -13,9 +13,10 @@ class Timer extends Component {
       <input className="timerInput" type="text" placeholder="Enter Time" ref={node => {
           this.input = node;
         }}/>
-      <button className="startButton" onClick={() => { startButton(this.input.value)
-          this.input.value = '';
-          }}>Start</button>
+      <button className="startButton" onClick={() => {
+        this.input.value = '' ? startButton(time) : startButton(this.input.value)
+        this.input.value = '';
+        }}>Start</button>
       <button className="stopButton" onClick={stopButton}>Stop</button>
     </div>
     )
