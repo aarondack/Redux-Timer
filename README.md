@@ -1,6 +1,6 @@
 ###Redux Timer
 
-Just a bare-bones simple contrived timer example that I built to show people an introduction to redux and react. 
+Just a bare-bones simple contrived timer example that I built to show people an introduction to redux. 
 
 ![](/Timer.gif)
 
